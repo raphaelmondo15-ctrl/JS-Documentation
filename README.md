@@ -6,7 +6,7 @@ The page has navigation bar for fluiden navigation and it is scrollable.
 
 The page has tops like JavaScript, Java and some explaination on variables.
 It also shows how to get started.
-A reference has been add for more details. 
+A reference has been add for more details.
 ![JS Documentation](/asset/images/JS_doc.png)
 
 ```HTML
