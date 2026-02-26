@@ -18,7 +18,7 @@ nav {
 }
 
 .text-area {
-  margin-left: 275px;
+  margin-left: 250px;
   align-content: center;
 }
 
@@ -55,6 +55,9 @@ nav {
   text-decoration: none;
   color: black;
   font-size: 15px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .navbar a:hover {
@@ -72,9 +75,42 @@ main {
   white-space: normal;
 }
 
-pre {
+/* pre {
   border: 2px;
   padding: 20px;
   text-align: left;
   background-color: #f8f8f8;
+} */
+
+ pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 4px;
+} 
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .text-area {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  body {
+    flex-direction: column;
+  }
+
+  p, h2, ul, pre {
+    display: flex;
+    flex-wrap: wrap;
+  } 
 }
