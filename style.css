@@ -82,14 +82,14 @@ main {
   background-color: #f8f8f8;
 } */
 
- pre {
+pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow-x: auto;
   background-color: #f8f8f8;
   padding: 20px;
   border-radius: 4px;
-} 
+}
 
 @media screen and (max-width: 768px) {
   .navbar {
@@ -109,8 +109,11 @@ main {
     flex-direction: column;
   }
 
-  p, h2, ul, pre {
+  p,
+  h2,
+  ul,
+  pre {
     display: flex;
     flex-wrap: wrap;
-  } 
+  }
 }
